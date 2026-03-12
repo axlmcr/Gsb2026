@@ -1,0 +1,46 @@
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.AssemblyReference.cache
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.GeneratedMSBuildEditorConfig.editorconfig
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.AssemblyInfoInputs.cache
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.AssemblyInfo.cs
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.CoreCompileInputs.cache
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.sourcelink.json
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.deps.json
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.dll
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.pdb
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Metier.dll
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Metier.pdb
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.Up2Date
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.dll
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\refint\Donnee.dll
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.pdb
+S:\DEV2\Documents en consultation\M. Verghote\PPE\GSB\Gsb2026\Donnee\obj\Debug\net10.0\ref\Donnee.dll
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.deps.json
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.dll
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.pdb
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Metier.dll
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Metier.pdb
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.AssemblyReference.cache
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.GeneratedMSBuildEditorConfig.editorconfig
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.AssemblyInfoInputs.cache
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.AssemblyInfo.cs
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.CoreCompileInputs.cache
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.Up2Date
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.dll
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\refint\Donnee.dll
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.pdb
+P:\Documents\SLAM2\GSB\Gsb2026\Donnee\obj\Debug\net10.0\ref\Donnee.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.deps.json
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Donnee.pdb
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Metier.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\bin\Debug\net10.0\Metier.pdb
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.AssemblyReference.cache
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.GeneratedMSBuildEditorConfig.editorconfig
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.AssemblyInfoInputs.cache
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.AssemblyInfo.cs
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.CoreCompileInputs.cache
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.csproj.Up2Date
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\refint\Donnee.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.pdb
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\ref\Donnee.dll
