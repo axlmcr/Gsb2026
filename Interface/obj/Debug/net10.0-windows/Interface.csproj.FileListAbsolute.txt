@@ -89,3 +89,4 @@ P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Interface\obj\Debug\net10.0-windo
 P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Interface\obj\Debug\net10.0-windows\Interface.pdb
 P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Interface\obj\Debug\net10.0-windows\Interface.genruntimeconfig.cache
 P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Interface\obj\Debug\net10.0-windows\ref\Interface.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Interface\obj\Debug\net10.0-windows\Interface.sourcelink.json

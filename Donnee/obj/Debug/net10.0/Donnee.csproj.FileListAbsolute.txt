@@ -44,3 +44,4 @@ P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.d
 P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\refint\Donnee.dll
 P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.pdb
 P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\ref\Donnee.dll
+P:\Documents\2eme_annee\m.verghote\GSB\Gsb2026\Donnee\obj\Debug\net10.0\Donnee.sourcelink.json
