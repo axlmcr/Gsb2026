@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Donnee/Donnee.csproj" />
+  <Project Path="Interface/Interface.csproj" />
+  <Project Path="Metier/Metier.csproj" />
+</Solution>
