@@ -420,8 +420,56 @@ namespace Donnee
         /// <param name="uneVisite">Visite à enregistrer</param>
         static public void enregistrerBilan(Visite uneVisite)
         {
+            using MySqlConnection cnx = ouvrirConnexion();
 
+            // 1. "Déclaration d'une transaction"
+            using MySqlTransaction uneTransaction = cnx.BeginTransaction();
 
+            try
+            {
+                // 2. "modification d'un enregistrement dans la table visite"
+                using (MySqlCommand cmd = new MySqlCommand("enregistrerBilanVisite", cnx))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    // "attacher la commande à la transaction"
+                    cmd.Transaction = uneTransaction;
+
+                    cmd.Parameters.AddWithValue("_idVisite", uneVisite.Id);
+                    cmd.Parameters.AddWithValue("_bilan", uneVisite.Bilan);
+                    cmd.Parameters.AddWithValue("_premierMedicament", uneVisite.PremierMedicament?.Id);
+                    cmd.Parameters.AddWithValue("_secondMedicament", uneVisite.SecondMedicament?.Id ?? (object)DBNull.Value);
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                // 3. "ajout de 0 à n enregistrements dans la table medicamentDistribué (échantillon)"
+                foreach (KeyValuePair<Medicament, int> unEchantillon in uneVisite)
+                {
+                    using (MySqlCommand cmd = new MySqlCommand("ajouterEchantillon", cnx))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        // "attacher la commande à la transaction"
+                        cmd.Transaction = uneTransaction;
+
+                        cmd.Parameters.AddWithValue("_idVisite", uneVisite.Id);
+                        cmd.Parameters.AddWithValue("_idMedicament", unEchantillon.Key.Id);
+                        cmd.Parameters.AddWithValue("_quantite", unEchantillon.Value);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+
+                // 4. "valider la transaction" (Si la visite et tous les échantillons sont passés sans erreur)
+                uneTransaction.Commit();
+            }
+            catch (Exception)
+            {
+                // 5. "annuler la transaction" (En cas de plantage d'une des requêtes)
+                uneTransaction.Rollback();
+                throw;
+            }
         }
 
         /// <summary>

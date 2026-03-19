@@ -63,7 +63,7 @@ namespace Interface
 
         private void enregistrerBilan_Click(object sender, EventArgs e)
         {
-            // ouvrirFormulaire(new FrmVisiteBilan(session));
+            ouvrirFormulaire(new FrmEnregistrerBilan(session));
         }
 
         private void consulterVisite_Click(object sender, EventArgs e)
