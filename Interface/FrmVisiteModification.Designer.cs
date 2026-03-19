@@ -87,11 +87,11 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(43, 168);
+            label4.Location = new Point(46, 168);
             label4.Name = "label4";
-            label4.Size = new Size(65, 15);
+            label4.Size = new Size(70, 15);
             label4.TabIndex = 4;
-            label4.Text = "est remi au";
+            label4.Text = "est remis au";
             // 
             // lblDate
             // 

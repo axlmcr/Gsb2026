@@ -420,8 +420,41 @@ namespace Donnee
         /// <param name="uneVisite">Visite à enregistrer</param>
         static public void enregistrerBilan(Visite uneVisite)
         {
+            using MySqlConnection cnx = ouvrirConnexion();
+            using MySqlTransaction uneTransaction = cnx.BeginTransaction();
+            
+            try
+            {
+                // 1. Préparer et exécuter la requête pour la visite
+                using var cmd = new MySqlCommand("enregistrerBilan", cnx);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Transaction = uneTransaction; // Attacher la transaction
+                
+                // (Ajout des paramètres _idVisite, _bilan, etc.)
+                // cmd.Parameters.AddWithValue("_idVisite", uneVisite.Id);
+                cmd.Parameters.AddWithValue("_bilan", uneVisite.Bilan);
 
 
+                cmd.ExecuteNonQuery();
+
+                // 2. Parcourir et ajouter chaque échantillon (optionnel)
+                /*
+                cmd.CommandText = "ajouterEchantillon"; // Autre procédure stockée
+                cmd.Parameters.Clear(); 
+                foreach(var echantillon in uneVisite.Echantillons) {
+                     // Ajouter les paramètres de l'échantillon à la volée et faire ExecuteNonQuery()
+                }
+                */
+
+                // Commit de la transaction
+                uneTransaction.Commit();
+            }
+            catch (Exception)
+            {
+                // Annulation de la transaction en cas d'erreur
+                uneTransaction.Rollback();
+                throw; 
+            }
         }
 
         /// <summary>
