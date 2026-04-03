@@ -47,7 +47,7 @@
             // 
             // lblTitre
             // 
-            lblTitre.Size = new Size(800, 74);
+            lblTitre.Size = new Size(907, 74);
             // 
             // panelCentral
             // 
@@ -56,7 +56,7 @@
             panelCentral.Controls.Add(panel2);
             panelCentral.Location = new Point(0, 101);
             panelCentral.Name = "panelCentral";
-            panelCentral.Size = new Size(800, 312);
+            panelCentral.Size = new Size(895, 415);
             panelCentral.TabIndex = 13;
             // 
             // lblErreurConnexion
@@ -66,7 +66,7 @@
             lblErreurConnexion.ForeColor = Color.Red;
             lblErreurConnexion.Location = new Point(0, 0);
             lblErreurConnexion.Name = "lblErreurConnexion";
-            lblErreurConnexion.Size = new Size(800, 29);
+            lblErreurConnexion.Size = new Size(895, 29);
             lblErreurConnexion.TabIndex = 19;
             lblErreurConnexion.Text = "msg";
             lblErreurConnexion.Visible = false;
@@ -74,7 +74,7 @@
             // imgGsb
             // 
             imgGsb.Image = Properties.Resources.logoGSB;
-            imgGsb.Location = new Point(80, 98);
+            imgGsb.Location = new Point(63, 127);
             imgGsb.Name = "imgGsb";
             imgGsb.Size = new Size(276, 185);
             imgGsb.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -90,12 +90,12 @@
             panel2.Controls.Add(imgApercu);
             panel2.Location = new Point(442, 32);
             panel2.Name = "panel2";
-            panel2.Size = new Size(314, 295);
+            panel2.Size = new Size(413, 380);
             panel2.TabIndex = 0;
             // 
             // dtpFin
             // 
-            dtpFin.Location = new Point(66, 100);
+            dtpFin.Location = new Point(144, 112);
             dtpFin.Name = "dtpFin";
             dtpFin.Size = new Size(200, 23);
             dtpFin.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             // dtpDebut
             // 
-            dtpDebut.Location = new Point(66, 53);
+            dtpDebut.Location = new Point(144, 41);
             dtpDebut.Name = "dtpDebut";
             dtpDebut.Size = new Size(200, 23);
             dtpDebut.TabIndex = 3;
@@ -113,7 +113,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Georgia", 10.2F, FontStyle.Bold | FontStyle.Italic);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(3, 138);
+            label1.Location = new Point(3, 158);
             label1.Name = "label1";
             label1.Size = new Size(39, 17);
             label1.TabIndex = 2;
@@ -122,7 +122,7 @@
             // imgImprimer
             // 
             imgImprimer.Image = Properties.Resources.imprimer;
-            imgImprimer.Location = new Point(187, 181);
+            imgImprimer.Location = new Point(246, 253);
             imgImprimer.Name = "imgImprimer";
             imgImprimer.Size = new Size(98, 89);
             imgImprimer.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -132,9 +132,9 @@
             // imgApercu
             // 
             imgApercu.Image = Properties.Resources.apercu;
-            imgApercu.Location = new Point(31, 181);
+            imgApercu.Location = new Point(87, 253);
             imgApercu.Name = "imgApercu";
-            imgApercu.Size = new Size(107, 89);
+            imgApercu.Size = new Size(84, 89);
             imgApercu.SizeMode = PictureBoxSizeMode.StretchImage;
             imgApercu.TabIndex = 0;
             imgApercu.TabStop = false;
@@ -143,7 +143,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(907, 568);
             Controls.Add(panelCentral);
             Icon = (Icon)resources.GetObject("$this.Icon");
             KeyPreview = true;

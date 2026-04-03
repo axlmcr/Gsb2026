@@ -14,14 +14,30 @@ namespace Interface
         public FrmVisiteImpression(Session uneSession) : base(uneSession)
         {
             InitializeComponent();
+            Resize();
 
-            this.Load += (s, e) => centrerFormulaire();
         }
+
+
+        #region Procédures événementielles
+        // private void Load()
+        // {
+
+        // }
 
         private void centrerFormulaire()
         {
             panelCentral.Left = (this.ClientSize.Width - panelCentral.Width) / 2;
         }
+
+        private void Resize()
+        {
+            this.Load += (s, e) => centrerFormulaire();
+
+        }
+
+
+        #endregion
 
     }
 }
